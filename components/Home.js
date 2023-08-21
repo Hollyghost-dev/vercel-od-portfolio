@@ -12,12 +12,10 @@ import Reveal from "react-reveal/Reveal";
 import { Navbar } from "../components/Navbar";
 import { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
-import "animate.css";
 import Swal from "sweetalert2";
 
 // CommonJS
 import config from "react-reveal/globals";
-import { set } from "mongoose";
 
 export default function Home() {
   const Swal = require("sweetalert2");
