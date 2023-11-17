@@ -11,7 +11,7 @@ export default function Header() {
   config({ ssrFadeout: true });
   return (
     <>
-      <a className={styles.seePdf}  target="_blank" href="https://drive.google.com/file/d/1TMOdrudDmmuSkkkpyMCPONGszMuwDpbR/view">Voir mon CV</a>
+      <a className={styles.seePdf}  target="_blank" href="https://drive.google.com/file/d/1m6DtlqK__6przWJ_nNxd0jCH73HUARhk/view">Voir mon CV</a>
       <section className={styles.container}>
         <div className={styleAnimation.area}>
           <ul className={styleAnimation.circles}>
