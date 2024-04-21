@@ -34,8 +34,9 @@ export default function Header() {
               Développeur FullStack Javascript
             </h2>
           </Animated>
-
+          
           <ul>
+          <li><a href="#exp">Mes expériences</a></li>
             <li><a href="#pres">Mes formations</a></li>
             <li><a href="#comp">Mes compétences</a></li>
             <li><a href='#proj'>Mes projets</a></li>

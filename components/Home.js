@@ -282,172 +282,310 @@ export default function Home() {
             </figure>
           </Zoom>
 
+          <h3 id="exp" className={styles.titleAccueil}>Mes expériences</h3>
+
+          <hr className={styles.horizontal}></hr>
+
+          <div className={styles.containerFormation} id="test">
+            <Reveal effect="fadeInUp">
+              <div className={styles.blockLeft}>
+                <h4>
+                  <span>Lieu</span>
+                  <span>
+                    :{"  "}
+                       HOLLYTEX , Aulnay-sous-bois
+                  </span>
+                </h4>
+                <h4>
+                  <span>Du </span>
+                  <span> : 08/01/2024 </span>
+                </h4>
+                <h4>
+                  <span>Jusqu’au </span>
+                  <span>: 01/04/2022</span>
+                </h4>
+                <h4>
+                  <span>Durée </span>
+                  <span>: 16 semaines</span>
+                </h4>
+              </div>
+            </Reveal>
+            <Reveal effect="fadeInUp">
+              <div className={styles.blockRightExperience}>
+                <h4>
+                  <span>Titre</span>
+                  <span> Développement d'une application mobile e-commerce via l'API Prestashop</span>
+                </h4>
+                <h4>
+                  <span>Stacks utilisés</span>
+                  <ul className={styles.scrollViewStacks}>
+                    <li>React Native</li>
+                    <li>Redux</li>
+                    <li>Node JS</li>
+                    <li>Express JS</li>
+                    <li>API Prestashop</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                    <li>Figma</li>
+                  </ul>
+                  
+                  </h4>
+                <h4>
+                  <span>Résumé de l'expérience</span>
+                  <span>
+                    {/* Coding Bootcamp de 10 semaines - Développeur web et mobile
+                    Fullstack JavaScript */}
+                    <ul>
+                      <li>
+                      Planification et Analyse des Besoins</li>
+                      <li>
+                      Configuration de l'Environnement de Développement
+                      </li>
+                      <li>Conception de l'Architecture</li>
+                      <li>Développement du Backend Express </li>
+                      <li> Développement de l'Application React Native</li>
+                      <li>Intégration et Tests</li>
+                      <li>Déploiement de l'application</li>
+                    </ul>
+                  </span>
+                </h4>
+              </div>
+            </Reveal>
+          </div>
+          <hr className={styles.horizontal}></hr>
+
+          <div className={styles.containerFormation}>
+            <Reveal effect="fadeInUp">
+              <div className={styles.blockLeft}>
+                <h4>
+                  <span>Lieu</span>
+                  <span>
+                    {" "}
+                    : Chauffez-vert , Île-de-france
+                  </span>
+                </h4>
+                <h4>
+                  <span>Du </span>
+                  <span> : 08/09/2023 </span>
+                </h4>
+                <h4>
+                  <span>Jusqu’au </span>
+                  <span>: 23/10/2023</span>
+                </h4>
+                <h4>
+                  <span>Durée </span>
+                  <span>: 6 semaines </span>
+                </h4>
+              </div>
+            </Reveal>
+            <Reveal effect="fadeInUp">
+              <div className={styles.blockRightExperience}>
+                <h4>
+                  <span>Titre</span>
+                  <span> Développement d'un site vitrine Wordpress (Thème : transition écologique)</span>
+                </h4>
+                <h4>
+                  <span>Stacks utilisés</span>
+                  <ul className={styles.scrollViewStacks}>
+                    <li>Wordpress</li>
+                    <li>Figma</li>
+                    <li>Zapier</li>
+                    <li>Google Ads</li>
+                    <li>Facebook Ads</li>
+                  </ul>
+                  
+                  </h4>
+                <h4>
+                  <span>Résumé de l'expérience </span>
+                  <span>
+                    <ul>
+                      <li>
+                      Planification et Analyse des Besoins
+                      </li>
+                      <li>
+                      Choix du Domaine et Hébergement
+                      </li>
+                      <li>Installation et Configuration de WordPress</li>
+                      <li>
+                      Sélection et Personnalisation du Thème
+                      </li>
+                      <li>Développement de Contenu et Structure du Site </li>
+                      <li>
+                      Optimisation SEO
+                      </li>
+                    </ul>
+                  </span>
+                </h4>
+              </div>
+            </Reveal>
+          </div>
+  
           <h3 className={styles.titleAccueil}>Mes formations</h3>
 
-          <hr className={styles.horizontal}></hr>
+<hr className={styles.horizontal}></hr>
 
-          <div className={styles.containerFormation}>
-            <Reveal effect="fadeInUp">
-              <div className={styles.blockLeft}>
-                <h4>
-                  <span>Lieu</span>
-                  <span>
-                    {" "}
-                    : La Capsule , 56 Boulevard Pereire , Levallois Perret
-                  </span>
-                </h4>
-                <h4>
-                  <span>Du </span>
-                  <span> : 11/10/2022 </span>
-                </h4>
-                <h4>
-                  <span>Jusqu’au </span>
-                  <span>: 23/12/2022</span>
-                </h4>
-                <h4>
-                  <span>Durée </span>
-                  <span>: 10 semaines</span>
-                </h4>
-              </div>
-            </Reveal>
-            <Reveal effect="fadeInUp">
-              <div className={styles.blockRight}>
-                <h4>
-                  <span>Nom de la formation</span>
-                  <span> Titre RNCP 6 développeur web et web mobile</span>
-                </h4>
-                <h4>
-                  <span>Résumé de la formation :</span>
-                  <span>
-                    Coding Bootcamp de 10 semaines - Développeur web et mobile
-                    Fullstack JavaScript
-                    <ul>
-                      <li>
-                        Conception et prototypage d’applications web et mobile
-                      </li>
-                      <li>
-                        Programmation Front-end : HTML 5 / CSS / JavaScript /
-                        React / Redux
-                      </li>
-                      <li>Programmation Back-end : Node.JS / Express</li>
-                      <li>Base de données et CDN: Mongo DB / Cloudinary </li>
-                      <li>Workflow : Git / Github </li>
-                    </ul>
-                  </span>
-                </h4>
-              </div>
-            </Reveal>
-          </div>
-          <hr className={styles.horizontal}></hr>
+<div className={styles.containerFormation}>
+  <Reveal effect="fadeInUp">
+    <div className={styles.blockLeft}>
+      <h4>
+        <span>Lieu</span>
+        <span>
+          {" "}
+          : La Capsule , 56 Boulevard Pereire , Levallois Perret
+        </span>
+      </h4>
+      <h4>
+        <span>Du </span>
+        <span> : 11/10/2022 </span>
+      </h4>
+      <h4>
+        <span>Jusqu’au </span>
+        <span>: 23/12/2022</span>
+      </h4>
+      <h4>
+        <span>Durée </span>
+        <span>: 10 semaines</span>
+      </h4>
+    </div>
+  </Reveal>
+  <Reveal effect="fadeInUp">
+    <div className={styles.blockRight}>
+      <h4>
+        <span>Nom de la formation</span>
+        <span> Titre RNCP 6 développeur web et web mobile</span>
+      </h4>
+      <h4>
+        <span>Résumé de la formation :</span>
+        <span>
+          Coding Bootcamp de 10 semaines - Développeur web et mobile
+          Fullstack JavaScript
+          <ul>
+            <li>
+              Conception et prototypage d’applications web et mobile
+            </li>
+            <li>
+              Programmation Front-end : HTML 5 / CSS / JavaScript /
+              React / Redux
+            </li>
+            <li>Programmation Back-end : Node.JS / Express</li>
+            <li>Base de données et CDN: Mongo DB / Cloudinary </li>
+            <li>Workflow : Git / Github </li>
+          </ul>
+        </span>
+      </h4>
+    </div>
+  </Reveal>
+</div>
+<hr className={styles.horizontal}></hr>
 
-          <div className={styles.containerFormation}>
-            <Reveal effect="fadeInUp">
-              <div className={styles.blockLeft}>
-                <h4>
-                  <span>Lieu</span>
-                  <span>
-                    {" "}
-                    : ITIC Paris ,190bis Boulevard de Charonne, 75020 Paris
-                  </span>
-                </h4>
-                <h4>
-                  <span>Du </span>
-                  <span> : 01/09/2020 </span>
-                </h4>
-                <h4>
-                  <span>Jusqu’au </span>
-                  <span>: 23/06/2022</span>
-                </h4>
-                <h4>
-                  <span>Durée </span>
-                  <span>: 2 années </span>
-                </h4>
-              </div>
-            </Reveal>
-            <Reveal effect="fadeInUp">
-              <div className={styles.blockRight}>
-                <h4>
-                  <span>Nom de la formation</span>
-                  <span> BTS SIO option SLAM</span>
-                </h4>
-                <h4>
-                  <span>Résumé de la formation :</span>
-                  <span>
-                    <ul>
-                      <li>
-                        Apprentissage de langages Frontend tel que HTML CSS et
-                        Javascript
-                      </li>
-                      <li>
-                        Apprentissage de langages Backend tel que Java et PHP
-                      </li>
-                      <li>Apprentissage de SQL , Base de données</li>
-                      <li>
-                        Réalisation de sites dynamiques pour le projet de fin
-                        d’années (HTML , CSS, Javascript et PHP){" "}
-                      </li>
-                      <li>Workflow : Git / Github </li>
-                    </ul>
-                  </span>
-                </h4>
-              </div>
-            </Reveal>
-          </div>
-          <hr className={styles.horizontal}></hr>
+<div className={styles.containerFormation}>
+  <Reveal effect="fadeInUp">
+    <div className={styles.blockLeft}>
+      <h4>
+        <span>Lieu</span>
+        <span>
+          {" "}
+          : ITIC Paris ,190bis Boulevard de Charonne, 75020 Paris
+        </span>
+      </h4>
+      <h4>
+        <span>Du </span>
+        <span> : 01/09/2020 </span>
+      </h4>
+      <h4>
+        <span>Jusqu’au </span>
+        <span>: 23/06/2022</span>
+      </h4>
+      <h4>
+        <span>Durée </span>
+        <span>: 2 années </span>
+      </h4>
+    </div>
+  </Reveal>
+  <Reveal effect="fadeInUp">
+    <div className={styles.blockRight}>
+      <h4>
+        <span>Nom de la formation</span>
+        <span> BTS SIO option SLAM</span>
+      </h4>
+      <h4>
+        <span>Résumé de la formation :</span>
+        <span>
+          <ul>
+            <li>
+              Apprentissage de langages Frontend tel que HTML CSS et
+              Javascript
+            </li>
+            <li>
+              Apprentissage de langages Backend tel que Java et PHP
+            </li>
+            <li>Apprentissage de SQL , Base de données</li>
+            <li>
+              Réalisation de sites dynamiques pour le projet de fin
+              d’années (HTML , CSS, Javascript et PHP){" "}
+            </li>
+            <li>Workflow : Git / Github </li>
+          </ul>
+        </span>
+      </h4>
+    </div>
+  </Reveal>
+</div>
+<hr className={styles.horizontal}></hr>
 
-          <div className={styles.containerFormation}>
-            <Reveal effect="fadeInUp">
-              <div className={styles.blockLeft}>
-                <h4>
-                  <span>Lieu</span>
-                  <span>
-                    {" "}
-                    :IUT Cachan , 9 Av. de la Division Leclerc, 94230 Cachan
-                  </span>
-                </h4>
-                <h4>
-                  <span>Du </span>
-                  <span> : 01/09/2019 </span>
-                </h4>
-                <h4>
-                  <span>Jusqu’au </span>
-                  <span>: 01/09/2020</span>
-                </h4>
-                <h4>
-                  <span>Durée </span>
-                  <span>: 1 année </span>
-                </h4>
-              </div>
-            </Reveal>
-            <Reveal effect="fadeInUp">
-              <div className={styles.blockRight}>
-                <h4>
-                  <span>Nom de la formation</span>
-                  <span>
-                    {" "}
-                    DUT Génie électrique et informatique industrielle (1 an){" "}
-                  </span>
-                </h4>
-                <h4>
-                  <span>Résumé de la formation :</span>
-                  <span>
-                    <ul>
-                      <li>
-                        Apprentissage de langages Frontend tel que HTML CSS et
-                        Javascript
-                      </li>
-                      <li>Apprentissage de langages tel que le C et Python</li>
-                      <li>
-                        Apprentissage de logiciels tel que Kicad pour la
-                        modélisation des cartes électroniques .
-                      </li>
-                      <li>Projet Robot suiveur de ligne</li>
-                    </ul>
-                  </span>
-                </h4>
-              </div>
-            </Reveal>
-          </div>
+<div className={styles.containerFormation}>
+  <Reveal effect="fadeInUp">
+    <div className={styles.blockLeft}>
+      <h4>
+        <span>Lieu</span>
+        <span>
+          {" "}
+          :IUT Cachan , 9 Av. de la Division Leclerc, 94230 Cachan
+        </span>
+      </h4>
+      <h4>
+        <span>Du </span>
+        <span> : 01/09/2019 </span>
+      </h4>
+      <h4>
+        <span>Jusqu’au </span>
+        <span>: 01/09/2020</span>
+      </h4>
+      <h4>
+        <span>Durée </span>
+        <span>: 1 année </span>
+      </h4>
+    </div>
+  </Reveal>
+  <Reveal effect="fadeInUp">
+    <div className={styles.blockRight}>
+      <h4>
+        <span>Nom de la formation</span>
+        <span>
+          {" "}
+          DUT Génie électrique et informatique industrielle (1 an){" "}
+        </span>
+      </h4>
+      <h4>
+        <span>Résumé de la formation :</span>
+        <span>
+          <ul>
+            <li>
+              Apprentissage de langages Frontend tel que HTML CSS et
+              Javascript
+            </li>
+            <li>Apprentissage de langages tel que le C et Python</li>
+            <li>
+              Apprentissage de logiciels tel que Kicad pour la
+              modélisation des cartes électroniques .
+            </li>
+            <li>Projet Robot suiveur de ligne</li>
+          </ul>
+        </span>
+      </h4>
+    </div>
+  </Reveal>
+</div>
           <h3 id="comp" className={styles.titleAccueil}>
             Mes compétences
           </h3>
